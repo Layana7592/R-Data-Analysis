@@ -1,0 +1,62 @@
+---
+
+title: "Customer Segmentation Analysis"
+author: "Layana"
+date: "`r Sys.Date()`"
+output: html_document
+---------------------
+
+# Introduction
+
+Customer segmentation helps businesses understand customer behavior and target marketing strategies effectively.
+
+# Dataset Overview
+
+Variables:
+
+* Age
+* Annual Income
+* Spending Score
+
+# Summary Statistics
+
+```{r}
+customer_data <- read.csv("customer_data.csv")
+summary(customer_data)
+```
+
+# Customer Clusters
+
+```{r echo=FALSE}
+knitr::include_graphics(
+"charts/customer_clusters.png"
+)
+```
+
+# Income Distribution
+
+```{r echo=FALSE}
+knitr::include_graphics(
+"charts/annual_income_distribution.png"
+)
+```
+
+# Spending Score Distribution
+
+```{r echo=FALSE}
+knitr::include_graphics(
+"charts/spending_score_distribution.png"
+)
+```
+
+# Cluster Summary
+
+```{r echo=FALSE}
+knitr::include_graphics(
+"charts/cluster_summary.png"
+)
+```
+
+# Conclusion
+
+K-Means clustering successfully grouped customers into distinct segments based on annual income and spending behavior. These segments can support targeted marketing and business decision-making.
