@@ -1,0 +1,30 @@
+---
+title: "Project Report"
+author: "Layana"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Introduction
+
+Project description.
+
+# Dataset Overview
+
+Dataset information.
+
+# Methodology
+
+Analysis methods used.
+
+# Results
+
+Results and findings.
+
+# Visualizations
+
+Charts and plots.
+
+# Conclusion
+
+Project conclusions.
