@@ -1,0 +1,13 @@
+Month,Region,Sales,Profit
+Jan,North,5000,1200
+Feb,North,5500,1400
+Mar,North,6000,1600
+Apr,South,4500,1000
+May,South,4800,1100
+Jun,South,5200,1300
+Jul,East,7000,1800
+Aug,East,7200,1900
+Sep,East,7500,2000
+Oct,West,6500,1700
+Nov,West,6800,1750
+Dec,West,8000,2200
