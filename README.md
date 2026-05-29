@@ -150,7 +150,7 @@ The `scripts` folder contains standalone R programs covering core statistical co
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/R-Data-Analysis.git
+git clone https://github.com/Layana7592/R-Data-Analysis.git
 ```
 
 2. Open the project in RStudio.
